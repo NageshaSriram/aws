@@ -1,11 +1,27 @@
 EC2
 
-Reference:
+Reference: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html?icmpid=docs_ec2_console
 
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html?icmpid=docs_ec2_console
-
-EBS- Amazon Elastic Block Store
-
-> AWS uses public-key cryptography to secure the login information for your instance.
-
+Full Form
+-------------------------
+EC2 - Elastic Compute Cloud
+EBS - Amazon Elastic Block Store
 VPC -  Amazon Virtual Private Cloud is a commercial cloud computing service that provides users a virtual private cloud, by "provision[ing] a logically isolated section of Amazon Web Services Cloud".
+HVM - hardware virtual machine
+SCP - Secure Copy Protocal
+.pem - Privacy Enhanced Mail
+
+Important points
+---------------------
+> AWS uses public-key cryptography to secure the login information for your instance.
+> Transferring files to Linux instances from Linux using SCP
+
+
+Defaul User names to connect to AWS instances:
+--------------------------------------------------
+References: https://alestic.com/2014/01/ec2-ssh-username/
+Amazon Linux:	ec2-user	
+Ubuntu:	ubuntu
+
+
+
