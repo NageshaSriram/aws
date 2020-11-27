@@ -24,4 +24,9 @@ Amazon Linux:	ec2-user
 Ubuntu:	ubuntu
 
 
+Copy file between local machine and EC2 instances
+----------------------------------------------------
+scp -i esaws_1.pem ~/Desktop/myfile.txt ec2-user@ec2-52-14-143-165.us-east-2.compute.amazonaws.com
+scp -i esaws_1.pem ec2-user@ec2-52-14-143-165.us-east-2.compute.amazonaws.com:~/myfile.txt . 
+
 
