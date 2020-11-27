@@ -3,3 +3,9 @@ EC2
 Reference:
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html?icmpid=docs_ec2_console
+
+EBS- Amazon Elastic Block Store
+
+> AWS uses public-key cryptography to secure the login information for your instance.
+
+VPC -  Amazon Virtual Private Cloud is a commercial cloud computing service that provides users a virtual private cloud, by "provision[ing] a logically isolated section of Amazon Web Services Cloud".
